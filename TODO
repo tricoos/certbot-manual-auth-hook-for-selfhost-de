@@ -1,0 +1,2 @@
+* Replace reverse-engineered code from original to selfhost.de API: https://forum.opnsense.org/index.php?topic=27109.0
+* Add mail capabilities as these have been removed from the original - better use PHPMailer and have the user configure SMTP settings in .env
