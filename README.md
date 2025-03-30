@@ -1,6 +1,11 @@
 # certbot-manual-auth-hook-for-selfhost-de
 Manual auth hook plugin for certbot for the german domain-hoster selfhost.de
 
+__FORKED FROM ORIGINAL, ORIGINAL README BELOW (STILL UNCHANGED, SORRY) - MODIFIED FOR DOCKER USAGE - SIMPLY CLONE, COPY
+.ENV_SAMPLE TO .ENV, SET YOUR DATA AND USE__
+
+__WARNING - THE CERTIFICATES INCLUDING THE PRIVATE KEY ARE SHARED LOCALLY IN THE CERTIFICATES DIRECTORY AFTER CREATION!__
+
 Documentation on german, as it is a hoster most likely used by german speaking people :) 
 
 Selfhost.de ist ein Anbieter für Domänen. Leider bietet selfhost noch keinen nativen Support

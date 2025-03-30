@@ -1,0 +1,9 @@
+services:
+  certbot-selfhost-wildcard-letsencrypt:
+    build: .
+    container_name: certbot-selfhost-wildcard-letsencrypt
+    volumes:
+      - ./code:/etc/selfhosthook
+      - ./certificates:/etc/certoutput
+    env_file: .env
+    restart: no
