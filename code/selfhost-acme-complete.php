@@ -6,7 +6,7 @@ $files   = scandir($dir);
 $success = 0;
 foreach ($files as $file) {
     if (preg_match("/\.pem$/", basename($file))) {
-        if (copy($file, '/etc/certoutput/' . $file)) {
+        if (copy($dir.'/'.$file, '/etc/certoutput/' . $file)) {
             $success++;
         }
     }
